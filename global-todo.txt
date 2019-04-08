@@ -1,0 +1,16 @@
+*** general steps for the creation of this cloud functions ***
+
+TODO: install firebase tools - npm install -g firebase-tools [done]
+
+TODO: create new empty / or open project in PhpStorm [done]
+
+TODO: login - firebase login [done]
+
+TODO: initialize - firebase init functions [done]
+
+TODO: (modify functions/index.js [done]
+
+TODO: select project - firebase use --add [done]
+
+
+
