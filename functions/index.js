@@ -6,8 +6,8 @@ admin.initializeApp();
 
 // global Constants
 const userProfileCollection = 'userProfile';
-const customerCollection = 'Customers';
-const historyCollection = 'History';
+const customerCollection = 'customers';
+const historyCollection = 'history';
 
 // Writes a profile record when a new user is created
 exports.createProfile = functions.auth.user()

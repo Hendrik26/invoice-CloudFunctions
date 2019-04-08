@@ -12,5 +12,7 @@ TODO: (modify functions/index.js [done]
 
 TODO: select project - firebase use --add [done]
 
+TODO: deployment - firebase deploy --only functionsd [done]
+
 
 
