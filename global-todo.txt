@@ -14,5 +14,7 @@ TODO: select project - firebase use --add [done]
 
 TODO: deployment - firebase deploy --only functionsd [done]
 
+TODO: logout - firebase logout [done]
+
 
 
