@@ -1,6 +1,7 @@
 {
   "projects": {
     "default": "arcitekturalspike02",
-    "invoicemanagement": "invoicemanagement-fa34a"
+    "invoicemanagement": "invoicemanagement-fa34a",
+    "invoicemanagenent": "invoicemanagement-fa34a"
   }
 }
