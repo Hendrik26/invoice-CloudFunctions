@@ -5,7 +5,7 @@ const admin = require('firebase-admin');
 admin.initializeApp();
 
 // global Constants
-const userProfileCollection = 'userProfile';
+const userProfileCollection = 'userprofiles';
 const customerCollection = 'customers'; // Spelling-errors removed here
 const historyCollection = 'history'; // Spelling-errors removed here
 
@@ -31,7 +31,7 @@ exports.writeHistoryCreate = functions.firestore.document('/' + customerCollecti
     .onCreate((snap, context) => {
             const date = new Date();
             const key = 'Key-' + date.getFullYear() + '-'
-                + ('0' + date.getMonth().toString()).slice(-2) + '-'
+                + ('0' + (date.getMonth() + 1).toString()).slice(-2) + '-'
                 + ('0' + date.getDate().toString()).slice(-2) + '-'
                 + ('0' + date.getHours().toString()).slice(-2) + '-'
                 + ('0' + date.getMinutes().toString()).slice(-2) + '-'
@@ -49,7 +49,7 @@ exports.writeHistoryUpdate = functions.firestore.document('/' + customerCollecti
     .onUpdate((snap, context) => {
             const date = new Date();
             const key = 'Key-' + date.getFullYear() + '-'
-                + ('0' + date.getMonth().toString()).slice(-2) + '-'
+                + ('0' + (date.getMonth() + 1).toString()).slice(-2) + '-'
                 + ('0' + date.getDate().toString()).slice(-2) + '-'
                 + ('0' + date.getHours().toString()).slice(-2) + '-'
                 + ('0' + date.getMinutes().toString()).slice(-2) + '-'

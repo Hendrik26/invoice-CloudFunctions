@@ -4,7 +4,7 @@ TODO: install firebase tools - npm install -g firebase-tools [done]
 
 TODO: create new empty / or open project in PhpStorm [done]
 
-TODO: login -  [done]
+TODO: login - firebase login  [done]
 
 TODO: initialize - firebase init functions [done]
 
@@ -16,5 +16,7 @@ TODO: deployment - firebase deploy --only functions [done]
 
 TODO: logout - firebase logout [done]
 
+
+TODO:  npm i -g firebase-tools to update
 
 
